@@ -1,0 +1,131 @@
+body{
+  background-color: #f6f6f6;
+  overflow: hidden scroll;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  background-color: white;
+  width: 105%;
+  z-index: 2
+}
+.logo{
+  margin-left: 150px;
+}
+.navbar-nav{
+  margin-left: 200px;
+}
+.navbar-nav li{
+  padding-right: 30px;
+}
+button{
+  margin-right: 230px;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+}
+.article{
+  position: relative;
+  top: 200px;
+  left: 150px;
+}
+.article h1{
+  margin-bottom: 30px;
+}
+.article p{
+  margin-bottom: 30px;
+}
+.rest-first-container{
+  position: relative;
+  bottom:350px;
+  left: 710px;
+  z-index: 1
+}
+.image-mockups{
+  z-index: 2;
+  position: absolute;
+}
+.bg-intro-desktop{
+  z-index: 1;
+  position: absolute;
+  top: -120px;
+  left:-150px;
+}
+.second-container{
+  margin-top: 470px;
+  padding: 150px;
+  background-color: #e0ece4;
+  width: 102%;
+}
+.second-container h2{
+  margin-bottom: 20px;
+}
+.second-container .row{
+  margin: 50px auto;
+}
+.second-container .row h3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.second-container p{
+  color:gray;
+}
+.third-container{
+  padding: 100px;
+}
+.third-container h2{
+  margin-bottom: 50px;
+}
+.photo{
+  height: 200px;
+}
+.forth-container{
+  padding: 50px 100px;
+  background-color: #1d2d50;
+}
+.forth-container ul{
+  list-style: none;
+  margin-top: 50px;
+  padding-left: 0;
+}
+.forth-container .icons ul li{
+  display: inline-block;
+  padding-right: 10px;
+}
+a{
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: gray;
+}
+.list ul li{
+  padding-top: 20px;
+}
+.list{
+  position: absolute;
+  top:2320px;
+  right: 800px;
+}
+.last-list ul li{
+  padding-top: 20px;
+}
+.last-list{
+  position: absolute;
+  top: 2320px;
+  right: 600px;
+}
+.last-article{
+  position: absolute;
+  top: 2400px;
+  right: -100px;
+  color: white;
+}
+.last-article p{
+  margin-top: 20px;
+}
+.attribution{
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
